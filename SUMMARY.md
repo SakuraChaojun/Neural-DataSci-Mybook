@@ -1,5 +1,5 @@
 # Table of contents
 
-* [PSYO3505](README.md)
+* [Content](README.md)
 * [Untitled](untitled.md)
 
