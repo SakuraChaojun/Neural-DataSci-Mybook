@@ -6,7 +6,7 @@ description: Chaojun Ma Demo 4
 
 ## Latex Overview  
 
-Jupyiter allows you to write code, text, mathematical formula and pictures in the same document and others can easily understand your ideas and processes by share this document. You may not familiar how to insert math equations in notebook. So, in this demo, I am going to show how to write formula in Jupiter notebook.
+Jupyter allows you to write code, text, mathematical formula and pictures in the same document and others can easily understand your ideas and processes by share this document. You may not familiar how to insert math equations in notebook. So, in this demo, I am going to show how to write formula in Jupyter notebook.
 
 First of all, we need change the cell type to markdown. Because latex is not a programming language. 
 
