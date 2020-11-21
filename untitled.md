@@ -38,3 +38,9 @@ We are not concerned the specifics of Latex wrting rules in here, you may notice
 
 Latex gives us two modes in here: **inline mode** and **display mode**. In-line mode, also known as in-text mode, inlays formulas into regular text, along with text. The display mode is to separate the formulas into a single line and center them. By using s_ingle $ means inline mode_ and _$$ for display mode_.
 
+$$
+\text{In here we using single character }P(A \mid B) = \frac{ P(B \mid A) P(A) }{ P(B) }\text{ inlays into text}
+$$
+
+
+
