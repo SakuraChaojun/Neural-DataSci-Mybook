@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Content](README.md)
-* [Untitled](untitled.md)
+* [Welcome](README.md)
+* [Writing Math Equations in Jupyter](untitled.md)
 
