@@ -134,5 +134,27 @@ then update the seeting for your Github pages site:
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
+Then we call ghp push our pages to Github pages:
+
+```bash
+ghp-import -n -p -f _build/html
+```
+
+After a few minutes you can access you jupyter book the link like 
+
+> `https://<user>.github.io/<myonlinebook>/`.
+
+like my book link is : [https://sakurachaojun.github.io/PSYO3505/notebooks.html](https://sakurachaojun.github.io/PSYO3505/notebooks.html)
+
+This is a template book. You need to know more details about Jupter book. like add group, change title or even add pages. Unlike Gitbook, all action based on command line. I will not elaborate on them in here because of space limitations. For more details, I recommend your read the documents.
+
+Cherrs!
+
+References and Documents:
+
+\[1\] [Gitbook document ](https://docs.gitbook.com)
+
+\[2\] [Books with Jupyter](https://jupyterbook.org/intro.html)
+
 
 
