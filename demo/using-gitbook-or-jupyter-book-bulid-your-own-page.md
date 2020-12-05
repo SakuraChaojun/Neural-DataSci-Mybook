@@ -148,7 +148,7 @@ like my book link is : [https://sakurachaojun.github.io/PSYO3505/notebooks.html]
 
 This is a template book. You need to know more details about Jupter book. like add group, change title or even add pages. Unlike Gitbook, all action based on command line. I will not elaborate on them in here because of space limitations. For more details, I recommend your read the documents.
 
-Cherrs!
+Cheers!
 
 References and Documents:
 
