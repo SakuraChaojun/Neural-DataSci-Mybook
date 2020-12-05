@@ -12,11 +12,11 @@ You can use DataCamp to learn more about Git like  '[Introduction to Git](https:
 
 ## What is Gitbook
 
-In my opinion, [Gitbook](https://www.gitbook.com) is a modern document sharing platform that allows multiple users to collaborate to create, modified , and shared documents. like our textbook use ‘jupyter Books’ \(I will mention later, if you want to use jupyter Books only please skip to section two\) but this one is more user-friendly, and you don’t need spend much time on set up.
+In my opinion, [Gitbook](https://www.gitbook.com) is a modern document sharing platform that allows multiple users to collaborate to create, modified , and shared documents. like our textbook use ‘jupyter book’ but gitbook is more user-friendly, and you don’t need spend much time on set up.
 
 ### From create an account to your first page
 
-Based on the platform management requirements, first of all you need an [account](https://app.gitbook.com/join?utm_source=homepage&utm_medium=header&utm_content=signup), this step is not difficult, I suggest you choose ‘sign in with’ Github. so that it is easy to access your page in later.
+First of all you need an [account](https://app.gitbook.com/join?utm_source=homepage&utm_medium=header&utm_content=signup), this step is not difficult, I suggest you choose ‘sign in with’ Github. so that it is easy to access your page in later.
 
 ![You can sign up with your Github ](../.gitbook/assets/image%20%2818%29.png)
 
@@ -24,26 +24,26 @@ After that, you can enter dashboard page, like picture shows
 
 ![Dashboard Page](../.gitbook/assets/image%20%2819%29.png)
 
-We can click the ‘Edits’ button to go back to the home page, then we click ‘New’ to select a ‘new page’. The default name of the new page is ‘untitled’ and we can easily change this information in later.
+We can click the ‘Edits’ button to go back to the **home page**, then we click ‘**New**’ to select a ‘new page’. The default name of the new page is ‘untitled’ and we can easily change this information in later.
 
 ![Select new page](../.gitbook/assets/image%20%2813%29.png)
 
-In this new page we can select the page template, for demo purposes we select the ‘basic guide’ template. Note that you can also import word, Markdown, and HTML files directly here but unfortunately ipynb files are not supported. This is also a major drawback of Gitbook in my opinion.
+In this new page we can select the page template, for demo purposes we select the ‘basic guide’ template. Note that you can also import word, Markdown, and HTML files directly here but unfortunately ipynb files are not supported. This is also a major drawback of Gitbook.
 
 {% hint style="danger" %}
 Gitbook not support .ipynb fies 
 {% endhint %}
 
-After planning the content, we first select how many Heading are needed and then add it. We click the **‘ ^ ’** button to edit heading and paragraph.
+After planning the content, we first select how many Heading are needed and then add it. We click the **‘ ^ ’** button to edit heading.
 
 ![edit heading and paragraph](../.gitbook/assets/image%20%2814%29.png)
 
-After finishing the Heading planning, we can click the ' + ' in the blank to add the specific content. In common use, we can select Code block, image or Math to insert mathematical equations.\( For details, you can see my last[ demo](https://sakurachaojun.gitbook.io/psyo3505/demo/latex)\)
+After finishing the Heading planning, we can click the ' + ' in the blank to add the specific block. In common use, we can select Code block, image block or Math block to insert mathematical equations.\( For details, you can see my last[ demo](https://sakurachaojun.gitbook.io/psyo3505/demo/latex)\)
 
-![Code block, image, Math Equation or select paragraph insert word](../.gitbook/assets/image%20%284%29.png)
+![Code block, image block, Math Equation block or select paragraph insert word](../.gitbook/assets/image%20%284%29.png)
 
 ```text
-This is code block 
+This is a code block 
 ```
 
 Once the content is written, we need to click ‘Save’ in the lower left corner and ‘merge’. Otherwise, our pages won't be saved on Git.
@@ -64,7 +64,7 @@ If you just want to share a specific page to others, you can click on the '... '
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-We can put multiple pages together and create a group, such as Demo, assignment. Again, we're going to home page select ‘new’ and this time we select add ‘new group’ With the new group we can just drag the page and put it inside.
+We can put multiple pages together and create a group, such as Demo, assignment. we're going to **home page** select ‘new’ and this time we click ‘new group’ . We can just drag the page in to specific group.
 
 ![ just drag the page and put it inside](../.gitbook/assets/image%20%2810%29.png)
 
@@ -72,35 +72,33 @@ We can put multiple pages together and create a group, such as Demo, assignment.
  If the page belongs to a group, the page link requires the group name followed by the slug name like [https://sakurachaojun.gitbook.io/psyo3505/demo/latex](https://sakurachaojun.gitbook.io/psyo3505/demo/latex). page latex belong to group demo 
 {% endhint %}
 
-Unfortunately, if you want to make the page fancy, like changing the font color, theme of the page, you have to pay for it. Of course, you don't have to pay to make some basic adjustments, such as changing the font family. These Settings can be found on the design page.
+Unfortunately, if you want to make the page fancy, like changing the font color, theme of the page, you have to pay for it. Of course, you don't have to pay to make some basic adjustments, such as changing the font family. These Settings can be found on the design.
 
 ![](../.gitbook/assets/image%20%2816%29.png)
 
 ## What is jupyter book
 
-I don't think I need to say too much about this platform, our textbook is based on this platform. It should be noted that jupyter Book is community driven, means you are free to use all the features. but not user-friendly.
+Our textbook is based on this platform. It should be noted that jupyter Book is community driven, means you are free to use all the features. but not user-friendly.
 
 ![Jupyter book support .ipynb files ](../.gitbook/assets/image%20%286%29.png)
 
-### No account and your first page
+### Template book and your first page
 
 {% hint style="danger" %}
-Warning: Jupyter Book uses a **command-line interface** to perform a variety of actions
+Jupyter Book uses a **command-line interface** to perform a variety of actions
 {% endhint %}
 
-First you need to install Jupyter Book and enter the following commands
+First you need to install Jupyter Book enter the following commands
 
 ```bash
 pip install -U jupyter-book
 ```
 
-Create a repo on Github and pull to the local machine like this 
+Next, Create a repo on Github and pull to the local machine like this 
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-![](../.gitbook/assets/image%20%2823%29.png)
-
-We create a template book directly. Let's enter the following command
+We create a template book directly. 
 
 ```bash
 jupyter-book create mynewbook/
@@ -116,11 +114,11 @@ After the creation, we need the Build page
 jupyter-book build mybookname/
 ```
 
-If successful, you will see a \_build folder generated
+If successful, you will see a **\_build** folder generated
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-We using Github Pages to publish our book, the best way is use ghp-import to help our push pages to Github.Install `ghp-import`
+We using Github Pages to publish our book, the best way is use ghp-import to help our push files to Github.Install `ghp-import`
 
 ```bash
 pip install ghp-import
@@ -140,7 +138,7 @@ Then we call ghp push our pages to Github pages:
 ghp-import -n -p -f _build/html
 ```
 
-After a few minutes you can access you jupyter book the link like 
+After a few minutes you can access you jupyter book and the link like 
 
 > `https://<user>.github.io/<myonlinebook>/`.
 
