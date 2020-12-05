@@ -10,7 +10,7 @@ Jupyter allows you to write code, text, mathematical formula and pictures in the
 
 First of all, we need change the cell type to markdown. Because latex is not a programming language. 
 
-![Changing cell type ](.gitbook/assets/image%20%281%29.png)
+![Changing cell type ](../.gitbook/assets/image%20%281%29.png)
 
 Once the changes are completed, we can try to enter our first formula. Y=a+bx by typing
 
@@ -96,7 +96,7 @@ $$
 
 For example, summation can be done using the \sum command, product operations can be done using \prod, and integration can be done using the \int command. Some examples are as follows
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 Based on above details we can try to write a simple calculus formula
 
@@ -186,7 +186,7 @@ $$
 
 ## Learn More
 
-{% file src=".gitbook/assets/symbols.pdf" %}
+{% file src="../.gitbook/assets/symbols.pdf" %}
 
 Latex also has many more methods and techniques, but I will not elaborate on them in here because of space limitations. You can download above pdf like ‘cheat sheet’ for latex.
 
